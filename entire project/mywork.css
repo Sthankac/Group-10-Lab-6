@@ -1,0 +1,33 @@
+/*this makes the flexbox property appilcable and wrap is enabled*/
+    .main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+ /*The flex grow property will allow the content to strech till the project ends*/
+    .work {           
+    padding: 2%;
+    flex-grow: 1;
+    flex-basis: 16%;
+  
+    display: flex;
+    }
+    /*Applying styles for heading*/
+    .main h1 {
+        flex-grow: 1;
+      }
+      /*Applying styles for image */
+
+      img{
+        width:280px;
+        height:250px;
+      }
+      /*Applying the flesbox property*/
+      .work {
+        padding: 2%;
+        flex-grow: 1;
+        flex-basis: 16%;
+      
+       
+      }
+   

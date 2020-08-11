@@ -1,0 +1,26 @@
+*{
+  box-sizing: border-box;
+}
+/*Styles applied for body*/
+body {
+  line-height: 1;
+}
+/*Style applied for container where the details aredisplayed*/
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    justify-content: space-evenly;
+}
+
+.item {
+    margin: 5px;
+}
+/*Styles applied for images styling with width and height*/
+img{
+  width:250px;
+  height:300px;
+  }
+
+
+  
